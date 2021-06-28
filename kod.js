@@ -20,12 +20,12 @@ function valami() {
         } else {
             sp.style.animation = "none";
             sp.style.display = "block";
-            sp.style.top = "-8px";
+            sp.style.top = "-7.5px";
         }
     } else {
         bele = false;
         if (fnev.value == "") {
-            sp.style.top = "-8px";
+            sp.style.top = "-7.5px";
             sp.style.animation = "none";
             sp.style.display = "block";
             sp.style.zIndex = "-1";
