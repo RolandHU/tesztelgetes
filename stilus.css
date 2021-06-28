@@ -23,7 +23,37 @@ p {
     background: white;
 }
 
+@keyframes animacio {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(0px);}
+    50% {transform: translateY(-18px);}
+    100% {transform: translateY(-18px);}
+}
+
+@keyframes animacio2 {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(0px);}
+    50% {transform: translateY(18.5px);}
+    100% {transform: translateY(18.5px);}
+}
+
+span {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    user-select: none;
+    font-size: 14px;
+    animation: none;
+    color: gray;
+    background: white;
+}
+
 input {
+    background: none;
     width: 250px;
     padding: 10px;
     padding-left: 13px;
