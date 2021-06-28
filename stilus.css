@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.felhasznalonev {
+    position: relative;
+}
+
+p {
+    display: none;
+    position: absolute;
+    top: -21.5px;
+    left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    color: gray;
+    background: white;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.fnev::placeholder {
+    color: transparent;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(184, 24, 184);
+}
