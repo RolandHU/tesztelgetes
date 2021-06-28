@@ -25,13 +25,16 @@ function valami() {
     } else {
         bele = false;
         if (fnev.value == "") {
+            sp.style.zIndex = "1";
             sp.style.top = "-7.5px";
             sp.style.animation = "none";
             sp.style.display = "block";
-            sp.style.zIndex = "-1";
             sp.style.color = "gray";
             sp.style.animation = "animacio2 0.2s";
             sp.style.animationFillMode = "forwards";
+            setTimeout(function() {
+                sp.style.zIndex = "-1";
+            }, 200)
         } else {
             sp.style.animation = "none";
             sp.style.display = "none";
